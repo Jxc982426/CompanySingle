@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxc.dao.AskleaveMapper">
+  <resultMap id="BaseResultMap" type="com.jxc.pojo.Askleave">
+    <id column="lno" jdbcType="INTEGER" property="lno" />
+    <result column="eno" jdbcType="INTEGER" property="eno" />
+    <result column="ename" jdbcType="VARCHAR" property="ename" />
+    <result column="dno" jdbcType="INTEGER" property="dno" />
+    <result column="dname" jdbcType="VARCHAR" property="dname" />
+    <result column="leavedate" jdbcType="TIMESTAMP" property="leavedate" />
+    <result column="backdate" jdbcType="TIMESTAMP" property="backdate" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+    <result column="duration" jdbcType="VARCHAR" property="duration" />
+    <result column="state" jdbcType="VARCHAR" property="state" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    lno, eno, ename, dno, dname, leavedate, backdate, reason, duration, state
+  </sql>
+  <select id="selectByExample" parameterType="com.jxc.pojo.AskleaveExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from askleave
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if><if test="startRow != null and pageSize != null and pageSize != 0">
+    limit #{startRow}, #{pageSize}
+  </if>
+
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from askleave
+    where lno = #{lno,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from askleave
+    where lno = #{lno,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.jxc.pojo.AskleaveExample">
+    delete from askleave
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.jxc.pojo.Askleave">
+    insert into askleave (lno, eno, ename, 
+      dno, dname, leavedate, 
+      backdate, reason, duration, 
+      state)
+    values (#{lno,jdbcType=INTEGER}, #{eno,jdbcType=INTEGER}, #{ename,jdbcType=VARCHAR}, 
+      #{dno,jdbcType=INTEGER}, #{dname,jdbcType=VARCHAR}, #{leavedate,jdbcType=DATE}, 
+      #{backdate,jdbcType=DATE}, #{reason,jdbcType=VARCHAR}, #{duration,jdbcType=VARCHAR}, 
+      #{state,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jxc.pojo.Askleave">
+    insert into askleave
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="lno != null">
+        lno,
+      </if>
+      <if test="eno != null">
+        eno,
+      </if>
+      <if test="ename != null">
+        ename,
+      </if>
+      <if test="dno != null">
+        dno,
+      </if>
+      <if test="dname != null">
+        dname,
+      </if>
+      <if test="leavedate != null">
+        leavedate,
+      </if>
+      <if test="backdate != null">
+        backdate,
+      </if>
+      <if test="reason != null">
+        reason,
+      </if>
+      <if test="duration != null">
+        duration,
+      </if>
+      <if test="state != null">
+        state,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="lno != null">
+        #{lno,jdbcType=INTEGER},
+      </if>
+      <if test="eno != null">
+        #{eno,jdbcType=INTEGER},
+      </if>
+      <if test="ename != null">
+        #{ename,jdbcType=VARCHAR},
+      </if>
+      <if test="dno != null">
+        #{dno,jdbcType=INTEGER},
+      </if>
+      <if test="dname != null">
+        #{dname,jdbcType=VARCHAR},
+      </if>
+      <if test="leavedate != null">
+        #{leavedate,jdbcType=DATE},
+      </if>
+      <if test="backdate != null">
+        #{backdate,jdbcType=DATE},
+      </if>
+      <if test="reason != null">
+        #{reason,jdbcType=VARCHAR},
+      </if>
+      <if test="duration != null">
+        #{duration,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null">
+        #{state,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.jxc.pojo.AskleaveExample" resultType="java.lang.Long">
+    select count(*) from askleave
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update askleave
+    <set>
+      <if test="record.lno != null">
+        lno = #{record.lno,jdbcType=INTEGER},
+      </if>
+      <if test="record.eno != null">
+        eno = #{record.eno,jdbcType=INTEGER},
+      </if>
+      <if test="record.ename != null">
+        ename = #{record.ename,jdbcType=VARCHAR},
+      </if>
+      <if test="record.dno != null">
+        dno = #{record.dno,jdbcType=INTEGER},
+      </if>
+      <if test="record.dname != null">
+        dname = #{record.dname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.leavedate != null">
+        leavedate = #{record.leavedate,jdbcType=DATE},
+      </if>
+      <if test="record.backdate != null">
+        backdate = #{record.backdate,jdbcType=DATE},
+      </if>
+      <if test="record.reason != null">
+        reason = #{record.reason,jdbcType=VARCHAR},
+      </if>
+      <if test="record.duration != null">
+        duration = #{record.duration,jdbcType=VARCHAR},
+      </if>
+      <if test="record.state != null">
+        state = #{record.state,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update askleave
+    set lno = #{record.lno,jdbcType=INTEGER},
+      eno = #{record.eno,jdbcType=INTEGER},
+      ename = #{record.ename,jdbcType=VARCHAR},
+      dno = #{record.dno,jdbcType=INTEGER},
+      dname = #{record.dname,jdbcType=VARCHAR},
+      leavedate = #{record.leavedate,jdbcType=DATE},
+      backdate = #{record.backdate,jdbcType=DATE},
+      reason = #{record.reason,jdbcType=VARCHAR},
+      duration = #{record.duration,jdbcType=VARCHAR},
+      state = #{record.state,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.jxc.pojo.Askleave">
+    update askleave
+    <set>
+      <if test="eno != null">
+        eno = #{eno,jdbcType=INTEGER},
+      </if>
+      <if test="ename != null">
+        ename = #{ename,jdbcType=VARCHAR},
+      </if>
+      <if test="dno != null">
+        dno = #{dno,jdbcType=INTEGER},
+      </if>
+      <if test="dname != null">
+        dname = #{dname,jdbcType=VARCHAR},
+      </if>
+      <if test="leavedate != null">
+        leavedate = #{leavedate,jdbcType=DATE},
+      </if>
+      <if test="backdate != null">
+        backdate = #{backdate,jdbcType=DATE},
+      </if>
+      <if test="reason != null">
+        reason = #{reason,jdbcType=VARCHAR},
+      </if>
+      <if test="duration != null">
+        duration = #{duration,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null">
+        state = #{state,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where lno = #{lno,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.jxc.pojo.Askleave">
+    update askleave
+    set eno = #{eno,jdbcType=INTEGER},
+      ename = #{ename,jdbcType=VARCHAR},
+      dno = #{dno,jdbcType=INTEGER},
+      dname = #{dname,jdbcType=VARCHAR},
+      leavedate = #{leavedate,jdbcType=DATE},
+      backdate = #{backdate,jdbcType=DATE},
+      reason = #{reason,jdbcType=VARCHAR},
+      duration = #{duration,jdbcType=VARCHAR},
+      state = #{state,jdbcType=VARCHAR}
+    where lno = #{lno,jdbcType=INTEGER}
+  </update>
+</mapper>

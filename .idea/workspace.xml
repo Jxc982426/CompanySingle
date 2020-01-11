@@ -1,0 +1,1915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CompanySingle:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="759d9ac8-890c-4989-9142-9530dbf39312" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CompanySingle_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompanySingle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/META-INF/CompanySingle.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/Mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/Mybatis-generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/Spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/Spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/Spring-mvc-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/Spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/GeneratorMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/controller/LoginCtroller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/controller/ManagerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/AskleaveMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/AskleaveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/AttendanceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/AttendanceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/BusinessMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/BusinessMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/ManagerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/ManagerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/SalaryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/SalaryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/SignMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/SignMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/TransferMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/dao/TransferMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/Askleave.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AskleaveExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AskleaveExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AskleaveExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AskleaveExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/Attendance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AttendanceExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AttendanceExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AttendanceExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/AttendanceExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/Business.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/BusinessExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/BusinessExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/BusinessExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/BusinessExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/Dept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/DeptExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/DeptExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/DeptExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/DeptExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/EmployeeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/EmployeeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/EmployeeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/ManagerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/ManagerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/ManagerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/ManagerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/Salary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/SalaryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/SalaryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/SalaryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/SalaryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/Sign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/SignExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/SignExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/SignExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/SignExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/Transfer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/TransferExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/TransferExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/TransferExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/pojo/TransferExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/AskleaveService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/AskleaveServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/AttendanceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/AttendanceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/BusinessService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/BusinessServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/ManagerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/ManagerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/SalaryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/SalaryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/SignService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/SignServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/TransferService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/service/TransferServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/com/jxc/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/aspectjweaver-1.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/http_cdn.jsdelivr.net_npm_bootstrap@3.3.7_dist_js_bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/javax.servlet.jsp-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/junit-4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/lombok-1.18.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/mybatis-3.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/mybatis-generator-core-1.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/mybatis-spring-2.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/servlet-api-5.5.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/spring-aop-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/spring-beans-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/spring-context-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/spring-core-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/spring-expression-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/spring-jcl-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/spring-jdbc-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/spring-tx-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/spring-web-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/lib/spring-webmvc-5.2.2.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/askLeave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/attendance.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/attendanceSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/blank.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/business.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/businessSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/employee.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/employeeSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/passwordChange.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/salary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/salarySave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/transfer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/admin/transferSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/bootstrap/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/bootstrap/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/bootstrap/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/bootstrap/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/bootstrap/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/dormManager/askLeave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/dormManager/askleaveSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/dormManager/attendance.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/dormManager/blank.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/dormManager/business.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/dormManager/passwordChange.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/dormManager/salary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/dormManager/sign.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/images/123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/mainAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/mainManager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/style/dorm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/CompanySingle_war_exploded/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/GeneratorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/controller/LoginCtroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/controller/ManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/dao/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/dao/AskleaveMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/dao/AttendanceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/dao/BusinessMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/dao/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/dao/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/dao/ManagerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/dao/SalaryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/dao/SignMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/dao/TransferMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/AdminExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Askleave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/AskleaveExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Attendance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/AttendanceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Business.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/BusinessExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/DeptExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/EmployeeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/ManagerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/SalaryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Sign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/SignExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Transfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/pojo/TransferExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/AskleaveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/AskleaveServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/AttendanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/AttendanceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/BusinessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/BusinessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/ManagerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/ManagerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/SalaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/SalaryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/SignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/SignServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/TransferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/service/TransferServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jxc/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Mybatis-generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Spring-mvc-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jxc/dao/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jxc/dao/AskleaveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jxc/dao/AttendanceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jxc/dao/BusinessMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jxc/dao/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jxc/dao/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jxc/dao/ManagerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jxc/dao/SalaryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jxc/dao/SignMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/jxc/dao/TransferMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tomcat.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/CompanySingle.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Mybatis-generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Spring-mvc-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/GeneratorMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/controller/LoginCtroller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/controller/ManagerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/AskleaveMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/AskleaveMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/AttendanceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/AttendanceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/BusinessMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/BusinessMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/ManagerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/ManagerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/SalaryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/SalaryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/SignMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/SignMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/TransferMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/dao/TransferMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/Askleave.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AskleaveExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AskleaveExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AskleaveExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AskleaveExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/Attendance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AttendanceExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AttendanceExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AttendanceExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/AttendanceExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/Business.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/BusinessExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/BusinessExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/BusinessExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/BusinessExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/Dept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/DeptExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/DeptExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/DeptExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/DeptExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/EmployeeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/EmployeeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/EmployeeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/EmployeeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/Manager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/ManagerExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/ManagerExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/ManagerExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/ManagerExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/Salary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/SalaryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/SalaryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/SalaryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/SalaryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/Sign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/SignExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/SignExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/SignExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/SignExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/Transfer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/TransferExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/TransferExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/TransferExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/pojo/TransferExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/AskleaveService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/AskleaveServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/AttendanceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/AttendanceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/BusinessService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/BusinessServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/ManagerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/ManagerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/SalaryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/SalaryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/SignService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/SignServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/TransferService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/service/TransferServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jxc/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/askLeave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/attendance.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/attendanceSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/blank.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/business.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/businessSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/employee.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/employeeSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/passwordChange.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/salary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/salarySave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/transfer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/transferSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/img/glyphicons-halflings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dormManager/askLeave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dormManager/askleaveSave.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dormManager/attendance.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dormManager/blank.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dormManager/business.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dormManager/passwordChange.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dormManager/salary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/dormManager/sign.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/mainAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/mainManager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/style/dorm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/问题.txt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="company: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="company: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="admin: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="company: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="attendance: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="company: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="business: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="company: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="dept: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="company: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="employee: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="company: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="manager: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="company: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="salary: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="company: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="sign: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="company: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="transfer: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CompanySingle" />
+    <favorites_list name="need" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.SCHEMA:company">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.SCHEMA:company</OriginalElement>
+              <nodes>
+                <node x="329.5" y="0.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept</node>
+                <node x="361.0" y="399.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.askleave</node>
+                <node x="48.5" y="176.5">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.manager</node>
+                <node x="683.0" y="433.5">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.salary</node>
+                <node x="0.0" y="710.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.admin</node>
+                <node x="529.0" y="422.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.sign</node>
+                <node x="185.0" y="422.5">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.attendance</node>
+                <node x="502.66666666666663" y="165.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee</node>
+                <node x="811.0" y="468.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.transfer</node>
+                <node x="0.0" y="456.5">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.business</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.attendance" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+                  <point x="39.0" y="-109.5" />
+                  <point x="302.0" y="369.0" />
+                  <point x="542.6666666666666" y="369.0" />
+                  <point x="-40.0" y="87.0" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+                  <point x="0.0" y="-87.0" />
+                  <point x="582.6666666666666" y="145.0" />
+                  <point x="417.57142857142856" y="145.0" />
+                  <point x="19.571428571428555" y="52.5" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.transfer" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+                  <point x="28.75" y="-64.0" />
+                  <point x="897.25" y="125.0" />
+                  <point x="456.7142857142857" y="125.0" />
+                  <point x="58.71428571428572" y="52.5" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.salary" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+                  <point x="-27.0" y="-98.5" />
+                  <point x="710.0" y="379.0" />
+                  <point x="622.6666666666666" y="379.0" />
+                  <point x="40.0" y="87.0" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.sign" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+                  <point x="0.0" y="-110.0" />
+                  <point x="13.333333333333371" y="87.0" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.askleave" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+                  <point x="37.0" y="-133.0" />
+                  <point x="472.0" y="379.0" />
+                  <point x="569.3333333333333" y="379.0" />
+                  <point x="-13.333333333333371" y="87.0" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.askleave" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+                  <point x="-37.0" y="-133.0" />
+                  <point x="0.0" y="52.5" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.business" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+                  <point x="-38.0" y="-75.5" />
+                  <point x="38.0" y="125.0" />
+                  <point x="339.2857142857143" y="125.0" />
+                  <point x="-58.71428571428572" y="52.5" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.attendance" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+                  <point x="-39.0" y="-109.5" />
+                  <point x="224.0" y="145.0" />
+                  <point x="378.42857142857144" y="145.0" />
+                  <point x="-19.571428571428555" y="52.5" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.transfer" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+                  <point x="-28.75" y="-64.0" />
+                  <point x="839.75" y="369.0" />
+                  <point x="649.3333333333333" y="369.0" />
+                  <point x="66.66666666666663" y="87.0" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.salary" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+                  <point x="27.0" y="-98.5" />
+                  <point x="764.0" y="135.0" />
+                  <point x="437.1428571428571" y="135.0" />
+                  <point x="39.14285714285711" y="52.5" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.business" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+                  <point x="38.0" y="-75.5" />
+                  <point x="114.0" y="359.0" />
+                  <point x="516.0" y="359.0" />
+                  <point x="-66.66666666666669" y="87.0" />
+                </edge>
+                <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.manager" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+                  <point x="0.0" y="-75.5" />
+                  <point x="131.0" y="135.0" />
+                  <point x="358.85714285714283" y="135.0" />
+                  <point x="-39.14285714285717" y="52.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.5015673981191222" x="468.50000000000006" y="407.5" />
+              <SelectedNodes>
+                <node>c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.business</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jxc/controller/ManagerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-475">
+              <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jxc/controller/EmployeeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2425">
+              <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d/schema/company/table/sign">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dormManagerList</find>
+      <find>employeeSave</find>
+      <find>SYNTHETIC</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>employeeList</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Jxc" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/jxc/pojo/SignExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxc/pojo/TransferExample.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/jxc/dao/ManagerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/jxc/dao/TransferMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/jxc/dao/SalaryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/jxc/dao/DeptMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/jxc/dao/BusinessMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/jxc/dao/AdminMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Employee.java" />
+        <option value="$PROJECT_DIR$/web/dormManager/attendanceSave.jsp" />
+        <option value="$PROJECT_DIR$/web/dormManager/askLeave.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/transferSave.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/salarySave.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/jxc/dao/AskleaveMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/jxc/dao/EmployeeMapper.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Salary.java" />
+        <option value="$PROJECT_DIR$/web/admin/attendanceSave.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/businessSave.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/employeeSave.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/attendance.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/employee.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/passwordChange.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/salary.jsp" />
+        <option value="$PROJECT_DIR$/web/dormManager/salary.jsp" />
+        <option value="$PROJECT_DIR$/web/dormManager/passwordChange.jsp" />
+        <option value="$PROJECT_DIR$/web/dormManager/business.jsp" />
+        <option value="$PROJECT_DIR$/web/dormManager/attendance.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Askleave.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxc/pojo/Sign.java" />
+        <option value="$PROJECT_DIR$/web/admin/askLeave.jsp" />
+        <option value="$PROJECT_DIR$/web/mainAdmin.jsp" />
+        <option value="$PROJECT_DIR$/web/mainManager.jsp" />
+        <option value="$PROJECT_DIR$/web/dormManager/blank.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/blank.jsp" />
+        <option value="$PROJECT_DIR$/web/dormManager/askleaveSave.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxc/service/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxc/test.java" />
+        <option value="$PROJECT_DIR$/web/admin/transfer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/jxc/dao/AttendanceMapper.xml" />
+        <option value="$PROJECT_DIR$/web/admin/business.jsp" />
+        <option value="$PROJECT_DIR$/web/dormManager/sign.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/jxc/dao/SignMapper.xml" />
+        <option value="$PROJECT_DIR$/问题.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/Spring-service.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxc/controller/LoginCtroller.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxc/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxc/controller/ManagerController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CompanySingle" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CompanySingle" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="12" />
+    <option name="width" value="1704" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CompanySingle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanySingle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanySingle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanySingle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanySingle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanySingle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanySingle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanySingle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanySingle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanySingle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jxc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanySingle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanySingle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jxc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanySingle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanySingle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanySingle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanySingle" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanySingle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanySingle" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanySingle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanySingle" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="dormManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanySingle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanySingle" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="Tab-separated (TSV)_id" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="plugins.codemaker" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\CompanySingle\web" />
+      <recent name="D:\idea\CompanySingle\web\WEB-INF\jsp\admin" />
+      <recent name="D:\idea\CompanySingle\web\WEB-INF\jsp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jxc" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.jxc.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\CompanySingle\web\dormManager" />
+      <recent name="D:\idea\CompanySingle\web\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.42">
+    <configuration name="GeneratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jxc.GeneratorMain" />
+      <module name="CompanySingle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jxc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompanySingle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jxc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jxc" />
+      <option name="MAIN_CLASS_NAME" value="com.jxc.test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test111" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompanySingle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jxc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jxc" />
+      <option name="MAIN_CLASS_NAME" value="com.jxc.test" />
+      <option name="METHOD_NAME" value="test111" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompanySingle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jxc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jxc" />
+      <option name="MAIN_CLASS_NAME" value="com.jxc.test" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.42" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.42" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <deployment>
+        <artifact name="CompanySingle:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_CompanySingle_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55269" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CompanySingle:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.42(2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.42" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CompanySingle:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_CompanySingle_2" />
+        <option name="HTTP_PORT" value="8081" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50777" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CompanySingle:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.GeneratorMain" />
+      <item itemvalue="JUnit.test.testInsert" />
+      <item itemvalue="JUnit.test" />
+      <item itemvalue="JUnit.test.test111" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.42" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.42(2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.test111" />
+        <item itemvalue="JUnit.test.testInsert" />
+        <item itemvalue="JUnit.test" />
+        <item itemvalue="Application.GeneratorMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="759d9ac8-890c-4989-9142-9530dbf39312" name="Default Changelist" comment="" />
+      <created>1576470569725</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576470569725</updated>
+      <workItem from="1576470573095" duration="2287000" />
+      <workItem from="1576472899473" duration="8303000" />
+      <workItem from="1576484399542" duration="25000" />
+      <workItem from="1576484503785" duration="52000" />
+      <workItem from="1576654133033" duration="15988000" />
+      <workItem from="1577087210865" duration="883000" />
+      <workItem from="1577148437198" duration="4405000" />
+      <workItem from="1577153726392" duration="5616000" />
+      <workItem from="1577161241117" duration="1614000" />
+      <workItem from="1577162968224" duration="13155000" />
+      <workItem from="1577182608248" duration="31000" />
+      <workItem from="1577235282925" duration="4318000" />
+      <workItem from="1577239650511" duration="2085000" />
+      <workItem from="1577241778609" duration="125000" />
+      <workItem from="1577241926836" duration="34000" />
+      <workItem from="1577241989053" duration="2235000" />
+      <workItem from="1577244783357" duration="6565000" />
+      <workItem from="1577259753609" duration="603000" />
+      <workItem from="1577260699158" duration="25000" />
+      <workItem from="1577408749991" duration="15000" />
+      <workItem from="1577409776633" duration="9197000" />
+      <workItem from="1577422929219" duration="3158000" />
+      <workItem from="1577430890511" duration="442000" />
+      <workItem from="1577450672262" duration="3773000" />
+      <workItem from="1577599845369" duration="58000" />
+      <workItem from="1577602619020" duration="5086000" />
+      <workItem from="1577667965510" duration="23617000" />
+      <workItem from="1577695022622" duration="343000" />
+      <workItem from="1577755565495" duration="571000" />
+      <workItem from="1577756994514" duration="7770000" />
+      <workItem from="1577773526615" duration="5291000" />
+      <workItem from="1577781629189" duration="159000" />
+      <workItem from="1577848748381" duration="9199000" />
+      <workItem from="1577927720473" duration="15786000" />
+      <workItem from="1577945481383" duration="8527000" />
+      <workItem from="1577955396854" duration="358000" />
+      <workItem from="1577955771931" duration="148000" />
+      <workItem from="1578021952558" duration="935000" />
+      <workItem from="1578222697030" duration="1386000" />
+      <workItem from="1578272853087" duration="4066000" />
+      <workItem from="1578277363163" duration="7922000" />
+      <workItem from="1578286600970" duration="74000" />
+      <workItem from="1578296554604" duration="4371000" />
+      <workItem from="1578303365932" duration="168000" />
+      <workItem from="1578359683061" duration="9088000" />
+      <workItem from="1578370526335" duration="4472000" />
+      <workItem from="1578397803602" duration="6516000" />
+      <workItem from="1578447482372" duration="2443000" />
+      <workItem from="1578452347181" duration="1113000" />
+      <workItem from="1578459161124" duration="77000" />
+      <workItem from="1578459959550" duration="151000" />
+      <workItem from="1578462589650" duration="1755000" />
+      <workItem from="1578474302579" duration="275000" />
+      <workItem from="1578561729333" duration="14000" />
+      <workItem from="1578732901187" duration="247000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test_test111 - 2020.01.06 at 15h 53m 28s.xml">
+      <configuration name="test.test111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test111 - 2020.01.06 at 15h 53m 33s.xml">
+      <configuration name="test.test111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test111 - 2020.01.06 at 15h 53m 34s.xml">
+      <configuration name="test.test111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test111 - 2020.01.06 at 15h 53m 37s.xml">
+      <configuration name="test.test111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test111 - 2020.01.06 at 15h 53m 40s.xml">
+      <configuration name="test.test111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test111 - 2020.01.06 at 16h 24m 34s.xml">
+      <configuration name="test.test111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test111 - 2020.01.06 at 16h 25m 51s.xml">
+      <configuration name="test.test111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test111 - 2020.01.06 at 16h 27m 28s.xml">
+      <configuration name="test.test111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test111 - 2020.01.06 at 16h 29m 37s.xml">
+      <configuration name="test.test111" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_test111 - 2020.01.06 at 17h 37m 18s.xml">
+      <configuration name="test.test111" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="206920000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="12" y="0" width="1704" height="1087" extended-state="0" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Word Book" order="2" sideWeight="0.5020964" side_tool="true" weight="0.19344871" />
+      <window_info id="Ant Build" order="3" sideWeight="0.5020964" side_tool="true" weight="0.19344871" />
+      <window_info id="Favorites" order="4" sideWeight="0.50383145" side_tool="true" weight="0.24039829" />
+      <window_info id="Web" order="5" sideWeight="0.50321543" side_tool="true" weight="0.18501957" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49401197" visible="true" weight="0.18187349" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32843652" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.32843652" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32843652" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32948583" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.25157234" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32914045" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.49817517" visible="true" weight="0.32738718" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" sideWeight="0.50139743" side_tool="true" weight="0.3480084" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="14" sideWeight="0.5018248" side_tool="true" visible="true" weight="0.32738718" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32914045" />
+      <window_info anchor="bottom" id="Run" order="16" sideWeight="0.49860257" weight="0.29979035" />
+      <window_info anchor="bottom" id="Statistic" order="17" weight="0.32914045" />
+      <window_info anchor="bottom" id="SQL Generator" order="18" weight="0.3721174" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Maven" order="1" sideWeight="0.505988" weight="0.2677006" />
+      <window_info anchor="right" id="Database" order="2" weight="0.22880216" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" visible="true" weight="0.2153518" />
+      <window_info anchor="right" id="Structure" order="6" sideWeight="0.5015625" visible="true" weight="0.15571776" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Word Book" order="2" sideWeight="0.5020964" side_tool="true" weight="0.19344871" />
+      <window_info id="Ant Build" order="3" sideWeight="0.5020964" side_tool="true" weight="0.19344871" />
+      <window_info id="Favorites" order="4" sideWeight="0.5020964" side_tool="true" weight="0.19344871" />
+      <window_info id="Web" order="5" sideWeight="0.50321543" side_tool="true" weight="0.18501957" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49678457" visible="true" weight="0.19396311" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32914045" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.32914045" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32914045" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.336478" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32914045" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" sideWeight="0.49906075" weight="0.32809225" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49860257" visible="true" weight="0.3417191" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" sideWeight="0.50139743" side_tool="true" weight="0.3480084" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50139743" side_tool="true" weight="0.3480084" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32914045" />
+      <window_info anchor="bottom" id="Statistic" order="17" weight="0.32914045" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.32979318" />
+      <window_info anchor="right" id="Palette" order="1" />
+      <window_info anchor="right" id="Database" order="2" weight="0.14924538" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" visible="true" weight="0.2153518" />
+      <window_info anchor="right" id="Structure" order="6" sideWeight="0.5015625" weight="0.16433762" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="简单公司管理系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单公司管理系统" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxc/service/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.2.RELEASE/spring-tx-5.2.2.RELEASE.jar!/org/springframework/transaction/config/spring-tx.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3835">
+          <caret line="177" column="20" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/jdk/internal/HotSpotIntrinsicCandidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/OutOfMemoryError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="108" column="22" lean-forward="true" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
+          <folding>
+            <element signature="e#10351#10352#0" expanded="true" />
+            <element signature="e#10385#10386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="116" column="17" lean-forward="true" selection-start-line="116" selection-start-column="17" selection-end-line="116" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#4052#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#2402#2403#0" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#3166#3167#0" expanded="true" />
+            <element signature="e#3194#3195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Error.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="223" lean-forward="true" selection-start-line="223" selection-end-line="223" />
+          <folding>
+            <element signature="e#9101#9102#0" expanded="true" />
+            <element signature="e#9147#9148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3109">
+          <caret line="734" column="7" lean-forward="true" selection-start-line="734" selection-start-column="7" selection-end-line="734" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Compiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="79" column="60" lean-forward="true" selection-start-line="79" selection-start-column="60" selection-end-line="79" selection-end-column="60" />
+          <folding>
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#2453#2454#0" expanded="true" />
+            <element signature="e#2480#2481#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxc/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13050">
+          <caret line="545" column="58" selection-start-line="545" selection-start-column="58" selection-end-line="545" selection-end-column="58" />
+          <folding>
+            <element signature="e#5757#5758#0" expanded="true" />
+            <element signature="e#5793#5794#0" expanded="true" />
+            <element signature="e#10105#10106#0" expanded="true" />
+            <element signature="e#10188#10189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/transferSave.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/transfer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxc/pojo/AttendanceExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxc/dao/AttendanceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/jxc/dao/AskleaveMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d/schema/company/table/attendance">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/jxc/dao/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d/schema/company/table/employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/businessSave.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="105" selection-start-line="29" selection-start-column="97" selection-end-line="29" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/business.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dormManager/askleaveSave.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dormManager/attendance.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1200">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/askLeave.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="96" column="92" lean-forward="true" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/dormManager/sign.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="88" column="57" lean-forward="true" selection-start-line="88" selection-start-column="57" selection-end-line="88" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/jxc/dao/SignMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="203" column="55" lean-forward="true" selection-start-line="203" selection-start-column="55" selection-end-line="203" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/jxc/dao/AttendanceMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="100" lean-forward="true" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="136" column="9" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tomcat.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/attendance.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/问题.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxc/controller/LoginCtroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-mvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="14" selection-start-line="14" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/mainManager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxc/pojo/Attendance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis-generator.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.SCHEMA:company">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.SCHEMA:company</OriginalElement>
+          <nodes>
+            <node x="329.5" y="0.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept</node>
+            <node x="361.0" y="399.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.askleave</node>
+            <node x="48.5" y="176.5">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.manager</node>
+            <node x="683.0" y="433.5">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.salary</node>
+            <node x="0.0" y="710.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.admin</node>
+            <node x="529.0" y="422.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.sign</node>
+            <node x="185.0" y="422.5">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.attendance</node>
+            <node x="502.66666666666663" y="165.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee</node>
+            <node x="811.0" y="468.0">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.transfer</node>
+            <node x="0.0" y="456.5">c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.business</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.attendance" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+              <point x="39.0" y="-109.5" />
+              <point x="302.0" y="369.0" />
+              <point x="542.6666666666666" y="369.0" />
+              <point x="-40.0" y="87.0" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+              <point x="0.0" y="-87.0" />
+              <point x="582.6666666666666" y="145.0" />
+              <point x="417.57142857142856" y="145.0" />
+              <point x="19.571428571428555" y="52.5" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.transfer" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+              <point x="28.75" y="-64.0" />
+              <point x="897.25" y="125.0" />
+              <point x="456.7142857142857" y="125.0" />
+              <point x="58.71428571428572" y="52.5" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.salary" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+              <point x="-27.0" y="-98.5" />
+              <point x="710.0" y="379.0" />
+              <point x="622.6666666666666" y="379.0" />
+              <point x="40.0" y="87.0" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.sign" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+              <point x="0.0" y="-110.0" />
+              <point x="13.333333333333371" y="87.0" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.askleave" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+              <point x="37.0" y="-133.0" />
+              <point x="472.0" y="379.0" />
+              <point x="569.3333333333333" y="379.0" />
+              <point x="-13.333333333333371" y="87.0" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.askleave" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+              <point x="-37.0" y="-133.0" />
+              <point x="0.0" y="52.5" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.business" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+              <point x="-38.0" y="-75.5" />
+              <point x="38.0" y="125.0" />
+              <point x="339.2857142857143" y="125.0" />
+              <point x="-58.71428571428572" y="52.5" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.attendance" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+              <point x="-39.0" y="-109.5" />
+              <point x="224.0" y="145.0" />
+              <point x="378.42857142857144" y="145.0" />
+              <point x="-19.571428571428555" y="52.5" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.transfer" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+              <point x="-28.75" y="-64.0" />
+              <point x="839.75" y="369.0" />
+              <point x="649.3333333333333" y="369.0" />
+              <point x="66.66666666666663" y="87.0" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.salary" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+              <point x="27.0" y="-98.5" />
+              <point x="764.0" y="135.0" />
+              <point x="437.1428571428571" y="135.0" />
+              <point x="39.14285714285711" y="52.5" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.business" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.employee">
+              <point x="38.0" y="-75.5" />
+              <point x="114.0" y="359.0" />
+              <point x="516.0" y="359.0" />
+              <point x="-66.66666666666669" y="87.0" />
+            </edge>
+            <edge source="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.manager" target="c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.dept">
+              <point x="0.0" y="-75.5" />
+              <point x="131.0" y="135.0" />
+              <point x="358.85714285714283" y="135.0" />
+              <point x="-39.14285714285717" y="52.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5015673981191222" x="468.50000000000006" y="407.5" />
+          <SelectedNodes>
+            <node>c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d.TABLE:company.business</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxc/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2425">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c5e1113f-8c4c-4f5f-9d72-57cb58a8f10d/schema/company/table/sign">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxc/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CompanySingle:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CompanySingle</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.protobuf:protobuf-java:3.6.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

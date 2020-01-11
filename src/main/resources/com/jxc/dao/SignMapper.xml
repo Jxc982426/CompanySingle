@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxc.dao.SignMapper">
+  <resultMap id="BaseResultMap" type="com.jxc.pojo.Sign">
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="eno" jdbcType="INTEGER" property="eno" />
+    <result column="firstsign" jdbcType="TIMESTAMP" property="firstsign" />
+    <result column="lastsign" jdbcType="TIMESTAMP" property="lastsign" />
+    <result column="signweek" jdbcType="INTEGER" property="signweek" />
+    <result column="signdate" jdbcType="DATE" property="signdate" />
+    <result column="late" jdbcType="CHAR" property="late" />
+    <result column="leaveearly" jdbcType="CHAR" property="leaveearly" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, eno, firstsign, lastsign, signweek, signdate, late, leaveearly
+  </sql>
+  <select id="selectByExample" parameterType="com.jxc.pojo.SignExample" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from sign
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if><if test="startRow != null and pageSize != null and pageSize != 0">
+    limit #{startRow}, #{pageSize}
+  </if>
+
+  </select>
+  <delete id="deleteByExample" parameterType="com.jxc.pojo.SignExample">
+    delete from sign
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.jxc.pojo.Sign">
+    insert into sign (id, eno, firstsign, 
+      lastsign, signweek, signdate, 
+      late, leaveearly)
+    values (#{id,jdbcType=INTEGER}, #{eno,jdbcType=INTEGER}, #{firstsign,jdbcType=TIMESTAMP},
+      #{lastsign,jdbcType=TIMESTAMP}, #{signweek,jdbcType=INTEGER}, #{signdate,jdbcType=DATE},
+      #{late,jdbcType=CHAR}, #{leaveearly,jdbcType=CHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.jxc.pojo.Sign">
+    insert into sign
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="eno != null">
+        eno,
+      </if>
+      <if test="firstsign != null">
+        firstsign,
+      </if>
+      <if test="lastsign != null">
+        lastsign,
+      </if>
+      <if test="signweek != null">
+        signweek,
+      </if>
+      <if test="signdate != null">
+        signdate,
+      </if>
+      <if test="late != null">
+        late,
+      </if>
+      <if test="leaveearly != null">
+        leaveearly,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="eno != null">
+        #{eno,jdbcType=INTEGER},
+      </if>
+      <if test="firstsign != null">
+        #{firstsign,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastsign != null">
+        #{lastsign,jdbcType=TIMESTAMP},
+      </if>
+      <if test="signweek != null">
+        #{signweek,jdbcType=INTEGER},
+      </if>
+      <if test="signdate != null">
+        #{signdate,jdbcType=DATE},
+      </if>
+      <if test="late != null">
+        #{late,jdbcType=CHAR},
+      </if>
+      <if test="leaveearly != null">
+        #{leaveearly,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.jxc.pojo.SignExample" resultType="java.lang.Long">
+    select count(*) from sign
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update sign
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.eno != null">
+        eno = #{record.eno,jdbcType=INTEGER},
+      </if>
+      <if test="record.firstsign != null">
+        firstsign = #{record.firstsign,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.lastsign != null">
+        lastsign = #{record.lastsign,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.signweek != null">
+        signweek = #{record.signweek,jdbcType=INTEGER},
+      </if>
+      <if test="record.signdate != null">
+        signdate = #{record.signdate,jdbcType=DATE},
+      </if>
+      <if test="record.late != null">
+        late = #{record.late,jdbcType=CHAR},
+      </if>
+      <if test="record.leaveearly != null">
+        leaveearly = #{record.leaveearly,jdbcType=CHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update sign
+    set id = #{record.id,jdbcType=INTEGER},
+      eno = #{record.eno,jdbcType=INTEGER},
+      firstsign = #{record.firstsign,jdbcType=TIMESTAMP},
+      lastsign = #{record.lastsign,jdbcType=TIMESTAMP},
+      signweek = #{record.signweek,jdbcType=INTEGER},
+      signdate = #{record.signdate,jdbcType=DATE},
+      late = #{record.late,jdbcType=CHAR},
+      leaveearly = #{record.leaveearly,jdbcType=CHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+</mapper>

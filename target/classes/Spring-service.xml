@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd"
+       default-lazy-init="true">
+
+    <!--1. 扫描service下的包-->
+    <context:component-scan base-package="com.jxc.service"/>
+    <!--<context:component-scan base-package="com.jxc.controller"/>-->
+
+    <!--2. 将所有的业务注入到spring中，  两种方式：配置  注解   -->
+    <!--<bean id="booksServiceImpl" class="com.jxc.service.BooksServiceImpl">-->
+    <!--    <property name="booksMapper" ref="booksMapper"/>-->
+    <!--</bean>-->
+
+    <!--3. 声明事务配置-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <!--注入数据源 -->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--4. AOP事务支持！！！ -->
+    <!--    配置事务通知-->
+    <tx:advice id="interceptor" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*" propagation="REQUIRED"/>
+        </tx:attributes>
+    </tx:advice>
+    <!--    配置事务切入-->
+    <aop:config>
+        <aop:pointcut id="txPointCut" expression="execution(* com.jxc.controller.*.*(..))"/>
+        <aop:advisor advice-ref="interceptor" pointcut-ref="txPointCut"/>
+    </aop:config>
+</beans>

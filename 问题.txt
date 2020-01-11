@@ -1,0 +1,17 @@
+关于时间显示及传值问题
+    Mysql中的date没有时分秒，改用datetime
+    Mybatis-generator生成的xml中，将涉及到时间DATE的jdbcType改为jdbcType="TIMESTAMP"
+    java中POJO的实体类中Date属性注解@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")实现前端输入的标准化
+    前端采用jstl的<fmt>标签实现显示的格式化
+
+
+关于SSM的整合问题
+    采用多个配置文件的方式导致SpringMVC发生问题
+        创建总配置文件Spring-config.xml导入所有相关配置文件，web的DispatchServlet引入总配置文件
+    有关Spring事务管理的问题
+       service层由于设计时为直接模仿Dao层，所以配置事务切入点时，将其位置放在了Controller层，以完成commit及回滚操作
+
+
+关于Maven的问题
+    由于采用maven管理，Mybatis-generator生成的xml文件需放在resource目录下
+    pom.xml中也配置了防止静态资源导出问题解决方式
